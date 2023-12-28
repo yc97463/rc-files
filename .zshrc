@@ -117,6 +117,7 @@ alias g++='/opt/homebrew/Cellar/gcc/13.2.0/bin/g++-13'
 # vscode code command
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
-
+# mtr with brew
+export PATH=$PATH:/opt/homebrew/sbin
+# https://stackoverflow.com/questions/60341250/why-brew-link-mtr-not-work-in-macos-catalina
 
